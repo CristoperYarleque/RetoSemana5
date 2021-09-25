@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    text-align: center;
+    border-radius: 1em;
+    margin: 0 1em;
+    border: 2px solid gray;
+}
+.uno{
+    padding: 1em 0;
+    flex-grow: 1;
+    border-right: 2px solid gray;
+}
+.dos{
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    flex-grow: 1;
+    padding: 1em 0;
+}
+.tres{
+    flex-grow: 1;
+    padding: 1em 0;
+    border-left: 2px solid gray;
+}
+h4{
+    font-size: calc(.5vw + 15px);
+    margin-top: 2em;
+}
+h3{
+    font-size: calc(2vw + 5px);
+    text-decoration: underline;
+}
+span{
+    font-weight: bold;
+    color: rgb(0, 255, 242);
+    font-size: calc(1vw + 15px);
+}
+
+h1{
+    font-weight: bold;
+    margin: .5em .5em;
+    border-radius: .5em;
+    border: 2px solid gray;
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+
+form{
+    padding: 1em 0;
+    margin: 1em 1em;
+    /* border: 2px solid gray;
+    border-radius: 1em; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entrada{
+    font-size: calc(1em + 5px);
+    background: none;
+    border: none;
+    height: 2.5em;
+    text-align: center;
+    color: rgb(0, 255, 242);
+    font-weight: bold;
+}
+.entrada1{
+    border-radius: 1em;
+    text-align: center;
+    color: rgb(0, 255, 242);
+    border: none;
+    height: 2.5em;
+    width: calc(40% + .5em);
+    font-size: calc(1em + 5px);
+    background: linear-gradient(45deg , rgba(128, 128, 128, 0.186), rgba(255, 255, 255, 0.124) , transparent);
+}
+.entrada1:focus{
+    text-align: center;
+    border-bottom: 3px solid yellow;
+    background: none;
+    outline: none;
+}
+.entrada1::-webkit-inner-spin-button{
+    appearance: none;
+}
+.entrada1::placeholder{
+    text-align: center;
+    color: rgb(0, 255, 242);
+    font-size: calc(1vw + 8px);
+}
+.entrada1:focus::placeholder{
+    color: transparent;
+}
+
+.btn{
+    height: calc(6vh + 1em);
+    width: calc(20vw + 2em);
+    background: rgba(128, 128, 128, 0.508);
+    color: white;
+    font-weight: bold;
+    border-radius: 1em;
+    margin: 0 .5vw;
+}
+
+h2{
+    text-decoration: underline;
+}
+.movermover{
+    padding-top: 2em;
+    border: 1px solid gray;
+    border-radius: 1em;
+}
+.movermover2{
+    border-radius: 1em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    border: 1px solid gray;
+}

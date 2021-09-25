@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETO 2</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <h1>HAMBURGUESAS</h1>
+    <header>
+        <div class="uno">
+            <h3 style="color: rgba(255, 255, 0, 0.802);">HAMBURGUESA SIMPLE</h3>
+            <h4>Precio <span>$20.00</span></h4>
+        </div>
+        <div class="dos">
+            <h3 style="color: rgba(255, 0, 0, 0.809);">HAMBURGUESA DOBLE</h3>
+            <h4 class="mover">Precio <span>$25.00</span></h4>
+        </div>
+        <div class="tres">
+            <h3 style="color: rgba(0, 128, 0, 0.809);">HAMBURGUESA TRIPLE</h3>
+            <h4>Precio <span>$28.00</span></h4>
+        </div>
+    </header>
+    <form action="">
+        <div class="movermover">
+    <h2 style="color: rgba(0, 128, 0, 0.823);">TIPO DE HAMBURGUESA</h2>
+    <br>
+    <input  type="button" class="SIMPLE btn" value="SIMPLE">
+    <input  type="button" class="DOBLE btn" value="DOBLE">
+    <input  type="button" class="TRIPLE btn" value="TRIPLE">
+    <br><br>
+    <input type="text" class="TIPO entrada" disabled>
+</div>
+    <br>
+    <div class="movermover">
+    <h2 style="color: rgba(255, 0, 0, 0.755);" class="raya">METODO DE PAGO</h2>
+    <br>
+    <input type="button" class="TARJETA btn" value="TARJETA">
+    <input type="button" class="EFECTIVO btn" value="EFECTIVO">
+    <br><br>
+    <input type="text" class="METODO entrada" disabled>
+</div>
+    <br>
+    <div class="movermover2">
+    <h2 style="color: rgba(255, 255, 0, 0.802);" class="raya">CANTIDAD DE HAMBURGUESAS</h2>
+    <br>
+    <input type="number" class="CANTIDAD entrada1" placeholder="INGRESE CANTIDAD" required min="0">
+</div>
+    <br>
+    <div class="movermover2">
+    <h2 class="raya" style="color: blue;">TOTAL A PAGAR</h2>
+    <input type="number" class="TOTAL entrada" disabled>
+    <br><br>
+    <input type="button" value="CALCULAR" class="btn btn1" onclick="enviardatos()">
+    <input type="reset" value="BORARR" class="btn btn1">
+    </div>
+     </form>
+
+     <script src="./script/script.js"></script>
+</body>
+</html>
